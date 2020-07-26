@@ -17,7 +17,7 @@ body li {
 
 .header {
   height: 100vh;
-  background-image: url(/img/top/top_bg.jpg);
+  background-image: url(https://nagidesu.github.io/cording2/img/top/top_bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -190,7 +190,7 @@ body li {
 
 .works {
   height: 100vh;
-  background-image: url(/img/top/works_bg.jpg);
+  background-image: url(https://nagidesu.github.io/cording2/img/top/works_bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -371,7 +371,7 @@ body li {
 
 .contact {
   height: 100vh;
-  background-image: url(/img/top/contact.jpg);
+  background-image: url(https://nagidesu.github.io/cording2/img/top/contact.jpg);
   background-size: cover;
   background-position: center;
 }
