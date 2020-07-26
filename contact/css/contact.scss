@@ -1,0 +1,195 @@
+@charset"utf-8";
+
+body {
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    font-family: Noto serif;
+}
+
+.header {
+    background-image: url(/img/contact_2.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .wrapper {
+        margin: 0 5%;
+
+        .header_nav {
+            align-items: center;
+            padding-top: 7px;
+            position: fixed;
+            left: 0;
+            right: 0;
+
+            .header_logo {
+                h1{
+                    margin-left: 5%;
+                    a {
+                        color: #fff;
+                        letter-spacing: 0.05rem;
+                        line-height: 1.2;
+                        font-size: 1.625rem;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .header_menu {
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-right: 5%;
+
+                    li {
+                        a {
+                            font-size: 1rem;
+                            line-height: 1.2;
+                            letter-spacing: 0.05;
+                            font-weight: bold;
+                            font-style: italic;
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .header_scroll{
+            background-color: #282F35;
+            transition: .3s;
+        }
+
+        .title {
+            h1 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 3.75rem;
+                line-height: 0.8;
+                letter-spacing: 0.1rem;
+                color: #fff;
+                font-weight: bold;
+                font-style: italic;
+                z-index: 8;
+            }
+        }
+
+        .sub_title {
+            h1 {
+                position: absolute;
+                bottom: 10%;
+                font-size: 5.625rem;
+                line-height: calc(150/90);
+                letter-spacing: 0.05rem;
+                color: #fff;
+                opacity: .1;
+                font-weight: bold;
+                font-family: [Noto SerifJ];
+                z-index: 8;
+            }
+        }
+    }
+
+    .menu_bar {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .res_menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.form {
+    margin: 0 30%;
+    height: 100vh;
+
+    h1 {
+        font-size: 1rem;
+        line-height: 1.875;
+        letter-spacing: 0.05rem;
+        font-weight: bold;
+        margin: 5% 0 0;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        margin: 2% 0 5%;
+
+        .checkbox {
+            display: flex;
+            align-items: baseline;
+            margin-right: 4vmin;
+
+            h3 {
+                font-size: 1rem;
+                letter-spacing: 0.05;
+                line-height: calc(21/16);
+                font-family: [Noto SerifJP];
+                font-weight: bold;
+            }
+        }
+    }
+
+    .input {
+        p {
+            font-size: 1rem;
+            letter-spacing: 0.05rem;
+            line-height: 1.825;
+            font-weight: bold;
+            margin: 5% 0 0;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+        }
+    }
+    
+    .contact_button{
+        display: block;
+        background-color: #f7d43f;
+        height: 8vmin;
+        width: 35vmin;
+        border-radius: 50px;
+        margin: 10% auto;
+        box-shadow: 0px 8px 5px ;
+        position: relative;
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        line-height: 1.825;
+        font-weight: bold;
+        &:active{
+            box-shadow: none;
+            top: 8px;
+        }
+    }
+}
+
+.footer{
+    text-align: center;
+    p{
+        padding: 1vmin 0;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        line-height: 2.14;
+        font-family: Noto Serif;
+        font-weight: bold;
+    }
+}

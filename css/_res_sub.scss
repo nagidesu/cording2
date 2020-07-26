@@ -1,0 +1,48 @@
+@mixin res_title_left {
+    .title{
+        font-size: 2.4rem;
+        font-family: Noto Serif;
+    }
+    .border{
+        height: 2px;
+        width: 10vw;
+    }
+}
+
+@mixin res_title_right {
+    .title{
+        font-size: 2.4rem;
+        font-family: Noto Serif;
+    }
+    .border{
+        height: 2px;
+        width: 10vw;
+    }
+}
+
+
+@mixin res_sub_title_left {
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.05rem;
+    }
+}
+
+@mixin res_sub_title_right {
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.05rem;
+        line-height: 1.675;
+    }
+}
+
+@mixin res_button {
+    width: 60vmin;
+    height: 18vmin;
+
+    a {
+        font-size: 1rem;
+        letter-spacing: 0.05;
+        line-height: 1.875;
+    }
+}
