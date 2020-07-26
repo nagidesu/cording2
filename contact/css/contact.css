@@ -31,6 +31,7 @@ body li {
   z-index: 10;
   left: 0;
   right: 0;
+  transition: .3s;
 }
 
 .header .wrapper .header_nav .header_logo h1 {
